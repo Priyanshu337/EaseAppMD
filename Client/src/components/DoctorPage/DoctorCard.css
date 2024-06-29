@@ -1,0 +1,64 @@
+/* DoctorCard.css */
+.card-body{
+  background-color: #dee8f1;
+}
+.card {
+  width: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+  overflow: hidden; 
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.doctor-info {
+  display: flex;
+  align-items: center;
+}
+
+.doctor-image img {
+  /* width: 70px; Set the width of the oval-shaped image */
+  height: 200px; 
+  border-radius: 50%; 
+  margin-right: 20px;
+  object-fit: cover; 
+}
+
+.doctor-details {
+  flex: 1;
+}
+
+.fee-text {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.details-link {
+  margin-bottom: 10px;
+  display: block;
+  color: blue;
+ 
+}
+
+.btn-success {
+  width: 100%; 
+}
+.doctor-avatar{
+  max-width: 150px;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: calc(50% - 20px); /* Two cards per row on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    width: calc(100% - 20px); /* Single card per row on mobile devices */
+  }
+}

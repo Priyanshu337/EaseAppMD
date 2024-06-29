@@ -1,0 +1,84 @@
+.myButton {
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin: 4px 0;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .myButton:hover {
+    background-color: #F0F0F0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+
+  /* CSS for the Modal */
+.Modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  transform: translate(-50%, -50%);
+  width: auto;
+  max-width: 480px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+}
+
+/* CSS for the Overlay (background behind the modal) */
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 999;
+}
+
+/* CSS for the Textarea */
+textarea {
+  width: 100%;
+  min-height: 100px;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  resize: vertical; /* Allows the user to resize the textarea vertically */
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .Modal {
+    width: 90%;
+  }
+}
+
+/* Button Styles */
+button {
+  padding: 10px 15px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #357ABD;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #285a8f;
+}
+
+button:last-child {
+  margin-right: 0;
+}

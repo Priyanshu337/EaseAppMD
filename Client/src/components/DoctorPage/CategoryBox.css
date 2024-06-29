@@ -1,0 +1,47 @@
+/* CategoryBox.css */
+
+.categories {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap; /* Prevent categories from wrapping */
+    overflow-x: auto; /* Add horizontal scrollbar if categories exceed the width of the screen */
+    -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS devices */
+    margin-bottom: 20px; /* Add bottom margin to the categories container */
+  }
+  
+  .category-box {
+    background-color: #dcdcdc;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    white-space: nowrap; /* Prevent text inside the category boxes from wrapping */
+  }
+  
+  .category-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+  .selected-category {
+    background-color: #23b1e0; /* Light blue background color for selected category */
+  }
+  
+  @media (max-width: 768px) {
+    .category-box {
+      width: 80px;
+      height: 80px;
+    }
+  
+    .category-image {
+      width: 30px;
+      height: 30px;
+    }
+  }
+  

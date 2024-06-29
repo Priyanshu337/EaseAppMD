@@ -1,0 +1,37 @@
+/* App.css */
+
+/* Default styles for smaller screens */
+.navbar-custom {
+    background-color: #ffffff; /* Background color of the navbar */
+  }
+  
+  .navbar-link {
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth transition for link color */
+  }
+  
+  /* Media query for larger screens */
+  @media screen and (min-width: 768px) {
+    .navbar-custom {
+      width: 100%; /* Make the navbar cover the whole page */
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow */
+    }
+  
+    .navbar-nav {
+      display: flex;
+      gap: 5rem; /* Spacing between navigation items */
+    }
+  
+    .navbar-link {
+      padding: 0.5rem 1rem; /* Padding on the top and bottom of each link */
+      color: #333; /* Link color */
+    }
+  
+    .navbar-link:hover {
+      color: #007bff; /* Change link color on hover */
+    }
+  }
+  

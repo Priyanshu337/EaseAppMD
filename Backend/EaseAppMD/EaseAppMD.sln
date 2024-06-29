@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EaseAppMD", "EaseAppMD.csproj", "{25E86008-872A-4CA8-B862-7CA78646F19B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25E86008-872A-4CA8-B862-7CA78646F19B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25E86008-872A-4CA8-B862-7CA78646F19B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25E86008-872A-4CA8-B862-7CA78646F19B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25E86008-872A-4CA8-B862-7CA78646F19B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B54CE720-1CBE-4C51-A937-7B110D28B7A8}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+		$0.TextStylePolicy = $2
+		$2.inheritsSet = null
+		$2.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $3
+		$3.scope = text/x-csharp
+		$0.TextStylePolicy = $4
+		$4.FileWidth = 80
+		$4.TabsToSpaces = True
+		$4.scope = text/x-vs
+	EndGlobalSection
+EndGlobal

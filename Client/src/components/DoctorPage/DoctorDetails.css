@@ -1,0 +1,158 @@
+.doctor-details-page {
+    padding: 2% 10% !important;
+}
+
+.detail {
+    text-align: center;
+}
+
+.details-header {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.doctor-biography-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.doctor-image-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.doctor-avatar {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.doctor-details {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.biography {
+    flex: 1;
+    padding-left: 30px;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+.appointment-details {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.book-appointment-btn {
+    margin-top: 20px;
+}
+
+.reviews-section {
+    margin-top: 40px;
+}
+
+.review-card {
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.selection-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.date-options, .time-options {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.selection-group button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    background: #E0E0E0; 
+    color: black;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s;
+}
+
+.selection-group button.active {
+    background: #007BFF; 
+    color: white;
+}
+
+.selection-group p {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .doctor-biography-container {
+      flex-direction: column;
+    }
+
+    .biography {
+      margin-top: 20px;
+      padding-left: 0;
+    }
+}
+@media (min-width: 768px) {
+    .details-container{
+        display: flex;
+        align-items: center;
+    }
+    .details-container > .doctor-profile, .details-container > .doctor-biography {
+        flex: 1;  
+    }
+}
+
+.center-button{
+    margin: 30px;
+}
+.biography{
+    font-size: 20px;
+}
+
+.date-options, .time-options {
+    flex-wrap: wrap;
+}
+.reviews-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 10%;
+    padding: 16px;
+  }
+  .reviewheader{
+    text-align: center;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .reviews-container {
+      grid-template-columns: 1fr;
+    }
+  }
+@media (max-width: 480px) {
+    .selection-group button {
+        padding: 5px 10px;
+        font-size: 0.8em; 
+    }
+}
+.date-options button, .time-options button {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+@media (max-width: 480px) {
+    .doctor-details-page {
+        padding: 2% 5% !important;
+    }
+}

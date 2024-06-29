@@ -1,0 +1,13 @@
+@media (min-width: 1025px) {
+  .h-custom-2 {
+    height: 100%;
+    }
+  }
+  .container-with-padding {
+    padding-left: 5%; /* Add left padding */
+    padding-right: 5%; /* Add right padding */
+  }
+
+  .row-container {
+    margin-top: 20px;
+  }
